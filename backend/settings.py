@@ -87,10 +87,10 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'myawsdemo',
+        'NAME': '',
         'USER': 'mysuperuser',
         'PASSWORD': 'mysuperuser',
-        'HOST': 'myawsdemo.c1asac4y4rwk.ap-south-1.rds.amazonaws.com',
+        'HOST': '',
         'PORT': '5432',
     }
 }
@@ -148,4 +148,6 @@ EMAIL_HOST_USER = 'Your Email'
 EMAIL_HOST_PASSWORD = 'Your Password'
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
+
+
 
