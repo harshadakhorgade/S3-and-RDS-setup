@@ -4,9 +4,6 @@
 
 This guide provides instructions for setting up your backend application using PostgreSQL RDS, S3 for file storage, and Django framework.
 
-## Repository
-
-[GitHub Repository](https://github.com/codewithmuh/backend_course.git)
 
 ## RDS Setup
 
